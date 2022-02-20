@@ -1,0 +1,158 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #c2aecf;
+}
+
+/* splash screen css starts here  */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #ffffff url("https://media.giphy.com/media/kUTME7ABmhYg5J3psM/giphy.gif") no-repeat center center;
+    z-index: 99999;
+}
+
+/* splash screen css ends here  */
+
+/* Nav Bar Start here*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+.bg-light{
+    background-color: #f2e9e4!important;
+}
+.nav-link{
+	margin-right: 15px;
+	color: #5f6368!important;
+    font-family: 'Noto Sans JP', sans-serif;
+	letter-spacing: 0.5px;
+	transition: 0.5s;
+}
+.navbar-brand{
+	font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color: #5f6368!important;
+}
+h2{
+	color: #4C4B4B;
+	letter-spacing: 0.5px;
+	font-family: raleway;
+}
+/* Nav bar end here */
+
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    background-color: #355070;
+    color: #ffffff;
+    padding: 3rem;
+    border-bottom-left-radius: 45rem;
+    border-bottom-right-radius: 45rem;
+    margin-bottom: 1vh;
+}
+
+.hero-img{
+    height: 70vh;
+    width: 100%;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #fff;
+    color: #039be5!important;
+    transition: 0.3s;
+}
+.get-started1{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #04AA6D;
+    color: #ffffff!important;
+    transition: 0.3s;
+}
+.get-started2{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 80%;
+    background-color: #04AA6D;
+    color: #ffffff!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #bfdff0;
+    
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 60vh;
+    background-color: #ff8a65;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #039be5;
+    color: #fff!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #017ab6;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
+/* Footer start here */
+footer{
+    background-color: #c2aecf;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.github{
+    color: #24292e;
+}
+
+.linkedin{
+    color: #0077b5;
+}
+
+.google{
+    color: #D44638;
+}
+
+/* Footers end here */
